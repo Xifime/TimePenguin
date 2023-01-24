@@ -1,0 +1,13 @@
+﻿<Window x:Class="TimePenguin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimePenguin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="200" Left="1480" Top="0" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+    <Grid>
+        <TextBlock x:Name="Timerr" HorizontalAlignment="Left" Margin="139,-3,0,0" TextWrapping="Wrap" Text="Ti:me" VerticalAlignment="Top" Foreground="LightGreen" FontSize="17" Width="61" TextAlignment="Right"/>
+        <TextBlock x:Name="Timerr_Copy" HorizontalAlignment="Left" Margin="0,20,0,0" TextWrapping="Wrap" Text="Яйцооо вылупится через 000 минут" VerticalAlignment="Top" Foreground="LightGreen" FontSize="12" Width="200" TextAlignment="Right"/>
+    </Grid>
+</Window>
